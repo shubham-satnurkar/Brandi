@@ -1,0 +1,99 @@
+/*Generic Css*/
+body{position: relative;}
+.container{max-width: 1100px;}
+h2{font-size: 3em;color: #fff;}
+h1{ font-size: 3.625em;}
+h3{font-size: 1.75em;color: #0eb493;font-weight: bold;}
+h4{font-size: 1.5em;font-weight: bold;}
+h5{font-size: 1.625em;font-family: pacifico;color: #fff;}
+h6{font-size: .9em;font-weight: bold;}
+p{font-size: 1.125em;color: #fff;}
+.glyphicon-heart-empty{font-size: 20px;color: #c3c6c7;}
+/*Font-Face*/
+@font-face{src:url(../fonts/OpenSans-Light.ttf);font-family: OS-Light;}
+@font-face{src:url(../fonts/Pacifico.ttf);font-family: pacifico;}
+@font-face{src:url(../fonts/OpenSans-Regular.ttf);font-family: OS-Reg;}
+
+
+
+/*Base Css*/
+/*Slide and Header Section*/
+.slide{background-image: url(../img/slide1.png);background-size: cover;background-repeat: no-repeat;background-attachment: fixed;background-position: center;}
+.slide .navbar-inverse{padding-bottom: 10px;background-color: rgba(0,0,0,.3);}
+.slide .navbar-brand{padding: 5px;}
+.slide .navbar-right li a{color: #fff;font-weight: bold;padding-top: 20px;}
+.slide .navbar-right li a:hover{border-top: 2px solid #32b0ee;}
+.slide .jumbotron{background-color: transparent;padding: 100px 0;}
+.slide .jumbotron h1{color: #fff;}
+
+/*Features Section*/
+.features{background-color: #f4f7f9;padding: 70px 0;text-align: center;	}
+.features h4{color: #062033;}
+.features p{color: #062033;font-size: .8em;margin-bottom: 40px;}
+
+
+/*Works Section*/
+.works{padding:  80px 0 20px;text-align: center;}
+.works .glyphicon-heart-empty{font-size: 20px;margin-bottom: 20px;}
+.works p{color: #062033;font-size: 1.125em;margin-bottom: 20px;}
+.works .btn-group{margin-bottom: 30px;}
+.works .btn-group .btn-default{color: #000;margin: 10px;border: none;font-weight: bold;}
+.works .btn-group .btn-default:hover{color: #fff;background-color: #0eb493;}
+.works .img-grp{padding: 0;}
+ 
+/*Our Team Section*/
+.Team{padding: 70px 0;text-align: center;}
+.Team p{font-size: 1.125em;color: #062033;margin-bottom: 20px;}
+.Team .thumbnail{background-color: transparent;border: none;margin-top: 60px;}
+.Team .thumbnail .caption h4{font-size: 1.125em;color: #062033;}
+.Team .thumbnail .caption h4:hover{color: #0eb493;}
+.Team .thumbnail .caption p{font-size: .875em;color: #062033;}
+
+
+/*Some Fun Facts*/
+.facts{background-image: url(../img/2ndslide.png);background-size: cover;background-repeat: no-repeat;background-attachment: fixed;background-position: center;text-align: center;}
+.fun{background-color: rgba(20, 39, 57,.8);padding: 70px 0;}
+.facts .thumbnail{background-color: transparent;border: none;}
+.facts .thumbnail .caption h2{font-size: 3.75em;}
+.facts .thumbnail .caption p{font-size: 1em;}
+
+
+/*Let's Discuss*/
+.discuss{padding: 70px 0 0;border-bottom: 3px solid #062033;}
+.discuss h3{text-align: center;}
+.discuss p{font-size: 1em;color: #062033;margin-bottom: 30px;text-align: center;}
+.discuss h4{color: #062033; font-size: 1.37em;margin-bottom: 30px;}
+.discuss .add p{text-align: left;line-height: 25px;}
+.discuss .hello .form-inline .form-group{width: 49%;}
+.discuss .hello .form-control{;border: none;border-bottom: 1px solid #cdd2d6;border-radius: 0;width: 100%;margin-bottom: 30px;}
+.discuss a{font-size: 1em;color: #000;float: right;margin-bottom: 60px;}
+.discuss .glyphicon-envelope{color: #0eb493;margin-right: 10px;}
+.discuss .block .fab,.fas{display: block;color: #cdd2d6;margin-bottom: 20px;font-size: 20px;}
+
+/*Link and Footer Section*/
+.footer{background-color: #1ea78d;padding: 100px 0;}
+.footer h5,h6{margin-bottom: 30px;color: #fff;}
+.footer p{font-size: .9em;text-align: justify;}
+.footer .form-control{margin-bottom: 40px;background-color: transparent;}
+.footer ul{padding: 0;list-style-type: none; }
+.footer ul li{margin-bottom: 10px;margin-right: 30px;}
+.footer ul li a{color: #fff;font-size: .85em;}
+.footer .glyphicon-heart-empty{color: #062033;margin: 0 3px;}
+.footer .foot h6{line-height: 20px;margin-bottom: 80px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
